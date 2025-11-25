@@ -35,8 +35,9 @@ export default function Header() {
       {open && (
         <nav className="md:hidden flex flex-col gap-4 mt-4 text-lg font-medium">
           <Link href="/" className="hover:text-blue-600" onClick={() => setOpen(false)}>Home</Link>
-          <Link href="/about" className="hover:text-blue-600" onClick={() => setOpen(false)}>About</Link>
+          <Link href="/skills" className="hover:text-blue-600" onClick={() => setOpen(false)}>Skill</Link>
           <Link href="/experience" className="hover:text-blue-600" onClick={() => setOpen(false)}>Experience</Link>
+           <Link href="/projects" className="hover:text-blue-600" onClick={() => setOpen(false)}>Project</Link>
           <Link href="/contact" className="hover:text-blue-600" onClick={() => setOpen(false)}>Contact Me</Link>
         </nav>
       )}
