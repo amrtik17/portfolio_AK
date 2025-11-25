@@ -1,12 +1,18 @@
+
 import Image from "next/image";
+import HeadLine from "./component/headLine";
+
+import About from "./about/page";
+
 
 export default function Home() {
   return (
-   <div>
+   
     <main>
-<h1>hiiiiiii</h1>
+      
+       <HeadLine/>
     </main>
-   </div>
+   
           
   );
 }
